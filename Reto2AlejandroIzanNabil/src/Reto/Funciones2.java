@@ -18,11 +18,16 @@ public class Funciones2 {
 			double Fahrenheit = celsius * 9.0 / 5.0 + 32;
 			 System.out.println(Fahrenheit);
 			break;
-
-		default:
+		case 2:
+			System.out.println("dame la temperatura en Fahrenheit: ");
+			double Fahrenheit2 = Double.parseDouble(sc.nextLine());
+			double celsius2 = (Fahrenheit2 - 32) * 5.0 / 9.0;
+			 System.out.println(celsius2);
 			break;
-			
+
+		default: System.out.println("errord");
+			break;
 		}
-		return n1;
+		return 0;
 	}
 }
