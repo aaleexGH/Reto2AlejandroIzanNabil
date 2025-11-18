@@ -36,7 +36,7 @@ public class Funciones2 {
 		System.out.println("1. litros a galones");
 		System.out.println("2. galones a litros");
 		int n1 = Integer.parseInt(sc.next());
-		switch (n1) {
+		switch (n1) { 
 		
 		case 1:
 			System.out.println("dame los litros: ");
