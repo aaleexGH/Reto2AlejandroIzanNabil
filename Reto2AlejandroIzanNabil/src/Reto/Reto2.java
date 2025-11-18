@@ -26,39 +26,17 @@ public class Reto2 {
 		switch (opcion) {
 		case 1:
 			System.out.println("---LONGITUD---");
-			double n1long = Funciones.dimeDouble("Dime una longitud:", sc);
 
-			System.out.println("---CONVERSION---");
-			System.out.println("1. Millas a Kilometros");
-			System.out.println("2. Kilometros a Millas");
-			System.out.println("0. Salir");
-
-			String oplong = sc.nextLine();
-			int opcionlong = Integer.parseInt(oplong);
-
-			switch (opcionlong) {
-			case 1:
-				System.out.println("---MILLAS A KILOMETROS---");
-				break;
-			case 2:
-				System.out.println("---KILOMETROS A MILLAS---");
-				break;
-			case 0:
-				System.out.println("SALIENDO...");
-				break;
-
-			default:
-				break;
-			}
-			break;
 		case 2:
 			System.out.println("---PESO---");
+
 			break;
 		case 3:
 			System.out.println("---TEMPERATURA---");
 			break;
 		case 4:
 			System.out.println("---VOLUMEN---");
+
 			break;
 		case 0:
 			System.out.println("SALIENDO...");
