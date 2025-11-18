@@ -55,4 +55,4 @@ public class Funciones2 {
 		}
 		return 0;
 	}
-}
+} 
