@@ -35,9 +35,11 @@ public class Reto2 {
 			break;
 		case 3:
 			System.out.println("---TEMPERATURA---");
+			Funciones2.temperatura();
 			break;
 		case 4:
 			System.out.println("---VOLUMEN---");
+			Funciones2.volumen();
 
 			break;
 		case 0:
