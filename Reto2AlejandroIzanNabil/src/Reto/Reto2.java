@@ -42,6 +42,16 @@ public class Reto2 {
 			Funciones2.volumen();
 
 			break;
+		case 5:
+			System.out.println("---MONEDA---");
+			Funciones3.moneda();
+
+			break;
+		case 6:
+			System.out.println("---ÁNGULO---");
+			Funciones3.angulo();
+
+			break;
 		case 0:
 			System.out.println("SALIENDO...");
 			break;
