@@ -34,7 +34,7 @@ public class Funciones2 {
 		Scanner sc = new Scanner(System.in).useLocale(Locale.US);
 		System.out.println("---Menu termperatura---");
 		System.out.println("1. Celsius a Fahrentheit");
-		System.out.println("2. Fahrentheit a Celsius");
+		System.out.println("2. Fahrentheit a Celsius");  
 		return 0;
 	}
 }
