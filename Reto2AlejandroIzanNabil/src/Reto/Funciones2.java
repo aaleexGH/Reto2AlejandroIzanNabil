@@ -33,8 +33,26 @@ public class Funciones2 {
 	public static double volumen() {
 		Scanner sc = new Scanner(System.in).useLocale(Locale.US);
 		System.out.println("---Menu termperatura---");
-		System.out.println("1. Celsius a Fahrentheit");
-		System.out.println("2. Fahrentheit a Celsius");
+		System.out.println("1. litros a galones");
+		System.out.println("2. galones a litros");
+		int n1 = Integer.parseInt(sc.next());
+		switch (n1) { 
+		
+		case 1:
+			System.out.println("dame los litros: ");
+			double litros = Double.parseDouble(sc.nextLine());
+			double galdones =  litros * 0.264172;
+			System.out.println(galdones);
+			break;
+		case 2:
+			System.out.println("dame los galones: ");
+			double galones2 = Double.parseDouble(sc.nextLine());
+			double litros2 = galones2 * 3.78541;
+			System.out.println(litros2);
+
+		default: System.out.println("error");
+			break;
+		}
 		return 0;
 	}
-}
+} 
