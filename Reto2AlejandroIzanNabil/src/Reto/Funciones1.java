@@ -8,7 +8,7 @@ public class Funciones1 {
 	public static void longitud() {
 		Scanner sc = new Scanner(System.in).useLocale(Locale.US);
 
-		System.out.println("Dime una longitud");
+		System.out.println("Dime una longitud: ");
 		String l = sc.nextLine();
 		double largo = Double.parseDouble(l);
 
@@ -39,4 +39,40 @@ public class Funciones1 {
 		}
 
 	}
+	
+	public static void peso() {
+		Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+
+		System.out.println("Dime un peso: ");
+		String p = sc.nextLine();
+		double peso = Double.parseDouble(p);
+
+		System.out.println("---PESO---");
+		System.out.println("1. Libras -> Kilogramos");
+		System.out.println("2. Kilogramos -> Libras");
+		System.out.println("0. Salir");
+
+		String oppeso = sc.nextLine();
+		int opcionpeso = Integer.parseInt(oppeso);
+
+		switch (opcionpeso) {
+		case 1:
+			System.out.println("LIBRAS -> KILOGRAMOS");
+			double libras = peso * 0.4;
+			System.out.println("Resultado: " + libras + " libras.");
+
+		case 2:
+			System.out.println("KILOGRAMOS -> LIBRAS");
+			double kilogramos = peso * 2.2;
+			System.out.println("Resultado : " + kilogramos + " kilogramos.");
+
+		case 0:
+			System.out.println("Saliendo...");
+
+		default:
+			break;
+		}
+
+	}
+	
 }

@@ -26,9 +26,11 @@ public class Reto2 {
 		switch (opcion) {
 		case 1:
 			System.out.println("---LONGITUD---");
+			Funciones1.longitud();
 
 		case 2:
 			System.out.println("---PESO---");
+			Funciones1.peso();
 
 			break;
 		case 3:
