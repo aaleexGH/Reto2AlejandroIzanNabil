@@ -5,12 +5,12 @@ import java.util.Scanner;
 
 public class Funciones3 {
 
-	public static double moneda() {
+	public static void moneda() {
 		Scanner sc = new Scanner(System.in).useLocale(Locale.US);
 		System.out.println("---Menu eurodolar---");
 		System.out.println("1. euro a dolar");
 		System.out.println("2. dolar a euro");
-		int n1 = Integer.parseInt(sc.next());
+		int n1 = Integer.parseInt(sc.nextLine());
 		switch (n1) {
 		case 1:
 			System.out.println("dame el importe en euros ");
@@ -28,7 +28,6 @@ public class Funciones3 {
 		default: System.out.println("errord");
 			break;
 		}
-		return 0;
 	}
 	public static double angulo() {
 		Scanner sc = new Scanner(System.in).useLocale(Locale.US);

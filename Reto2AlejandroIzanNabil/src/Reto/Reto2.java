@@ -19,6 +19,8 @@ public class Reto2 {
 		System.out.println("2. Peso");
 		System.out.println("3. Temperatura");
 		System.out.println("4. Volumen");
+		System.out.println("5. Moneda");
+		System.out.println("6. Angulo");
 		System.out.println("0. Salir");
 		String op = sc.nextLine();
 		int opcion = Integer.parseInt(op);

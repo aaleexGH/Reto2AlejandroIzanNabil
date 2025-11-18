@@ -43,6 +43,7 @@ public class Funciones1 {
 	public static void peso() {
 		Scanner sc = new Scanner(System.in).useLocale(Locale.US);
 
+		
 		System.out.println("Dime un peso: ");
 		String p = sc.nextLine();
 		double peso = Double.parseDouble(p);

@@ -10,7 +10,7 @@ public class Funciones2 {
 		System.out.println("---Menu termperatura---");
 		System.out.println("1. Celsius a Fahrentheit");
 		System.out.println("2. Fahrentheit a Celsius");
-		int n1 = Integer.parseInt(sc.next());
+		int n1 = Integer.parseInt(sc.nextLine());
 		switch (n1) {
 		case 1:
 			System.out.println("dame la temperatura en celsius: ");
