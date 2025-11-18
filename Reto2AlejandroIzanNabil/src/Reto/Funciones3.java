@@ -1,8 +1,17 @@
 package Reto;
 
+import java.util.Scanner;
+
 public class Funciones3 {
+	
+	Scanner sc = new Scanner(System.in);
+	String op = sc.nextLine();
+	int opcion = Integer.parseInt(op);
+
+
 	 public static double eurodolar(int n1) {
 		 return n1*1.08;
+		
 	 }
 	 public static double dolareuro(int n1) {
 		 return n1/1.08;
