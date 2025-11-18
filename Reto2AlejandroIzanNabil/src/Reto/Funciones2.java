@@ -30,4 +30,11 @@ public class Funciones2 {
 		}
 		return 0;
 	}
+	public static double volumen() {
+		Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+		System.out.println("---Menu termperatura---");
+		System.out.println("1. Celsius a Fahrentheit");
+		System.out.println("2. Fahrentheit a Celsius");
+		return 0;
+	}
 }
